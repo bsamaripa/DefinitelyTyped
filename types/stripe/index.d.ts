@@ -133,6 +133,13 @@ declare namespace Stripe {
              * The state of the account’s information requests, including what
              * information is needed and by when it must be provided.
              */
+            
+            timezone: string;
+            /**
+             * The timezone used in the Stripe Dashboard for this account. A list of possible
+             * time zone values is maintained at the IANA Time Zone Database.
+             */
+            
             verification: {
                 /**
                  * A string describing the reason for this account being unable to charge
